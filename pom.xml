@@ -18,6 +18,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
+    <scm>
+        <developerConnection>scm:git:https://github.com/jan268/sfg-pet-clinic.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <java.version>11</java.version>
