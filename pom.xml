@@ -14,11 +14,12 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.1 SNAPSHOT</version>
+    <version>y</version>
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
     <scm>
         <developerConnection>scm:git:https://github.com/jan268/sfg-pet-clinic.git</developerConnection>
+    <tag>sfg-pet-clinic-y</tag>
   </scm>
 
     <properties>

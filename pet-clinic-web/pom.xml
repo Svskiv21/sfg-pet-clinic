@@ -3,11 +3,12 @@
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
-        <version>0.0.1</version>
+        <version>y</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>pet-clinic-web</artifactId>
+  <version>0.0.1</version>
 
 
     <dependencies>
@@ -40,4 +41,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+
+  <scm>
+    <tag>sfg-pet-clinic-y</tag>
+  </scm>
 </project>
