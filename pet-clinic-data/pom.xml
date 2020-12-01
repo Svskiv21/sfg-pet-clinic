@@ -3,7 +3,6 @@
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
-        <version>y</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
