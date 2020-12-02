@@ -18,8 +18,8 @@
     <name>sfg-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
     <scm>
-        <connection>https://github.com/vorburger/MariaDB4j.git</connection>
-        <url>https://github.com/vorburger/MariaDB4j</url>
+        <connection>https://github.com/jan268/sfg-pet-clinic.git</connection>
+        <url>https://github.com/jan268/sfg-pet-clinic</url>
   </scm>
 
     <properties>
