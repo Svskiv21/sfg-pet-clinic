@@ -59,6 +59,5 @@
     <scm>
         <connection>https://github.com/jan268/sfg-pet-clinic.git</connection>
         <url>https://github.com/jan268/sfg-pet-clinic</url>
-    <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
 </project>
