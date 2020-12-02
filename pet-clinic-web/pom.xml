@@ -42,7 +42,7 @@
         </dependency>
     </dependencies>
 
-  <scm>
-    <tag>sfg-pet-clinic-0.0.1</tag>
-  </scm>
+    <scm>
+        <developerConnection>scm:git:https://github.com/jan268/sfg-pet-clinic.git</developerConnection>
+    </scm>
 </project>
