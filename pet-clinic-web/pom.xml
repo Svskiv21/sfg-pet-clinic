@@ -43,7 +43,7 @@
     </dependencies>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/jan268/sfg-pet-clinic.git</developerConnection>
-    <tag>sfg-pet-clinic-0.0.1</tag>
+        <connection>https://github.com/vorburger/MariaDB4j.git</connection>
+        <url>https://github.com/vorburger/MariaDB4j</url>
   </scm>
 </project>
