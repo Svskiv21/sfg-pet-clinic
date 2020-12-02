@@ -41,8 +41,4 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
-
-    <scm>
-        <developerConnection>scm:git:git@github.com:jan268/sfg-pet-clinic.git</developerConnection>
-  </scm>
 </project>

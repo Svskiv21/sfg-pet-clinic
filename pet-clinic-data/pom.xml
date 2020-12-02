@@ -55,8 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <scm>
-        <developerConnection>scm:git:git@github.com:jan268/sfg-pet-clinic.git</developerConnection>
-  </scm>
 </project>
