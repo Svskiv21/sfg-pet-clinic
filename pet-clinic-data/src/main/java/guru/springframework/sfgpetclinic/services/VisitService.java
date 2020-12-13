@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic.services.map;
+package guru.springframework.sfgpetclinic.services;
 
 import guru.springframework.sfgpetclinic.model.Visit;
 import guru.springframework.sfgpetclinic.services.CrudService;
