@@ -2,6 +2,8 @@ package guru.springframework.sfgpetclinic.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "pets")
@@ -20,6 +22,17 @@ public class Pet extends BaseEntity{
 
     @JoinColumn(name = "birthDate")
     private LocalDate birthDate;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet") //If i delete pet then visits are also deleted, it's mapped by pet on the other side.
+    private Set<Visit> visits = new HashSet<>(); //We use new HashSet so the value is not null
+
+    public Set<Visit> getVisits() {
+        return visits;
+    }
+
+    public void setVisits(Set<Visit> visits) {
+        this.visits = visits;
+    }
 
     public String getName() {
         return name;
