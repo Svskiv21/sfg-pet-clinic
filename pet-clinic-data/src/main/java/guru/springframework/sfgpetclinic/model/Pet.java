@@ -12,8 +12,8 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-//@Builder
-@SuperBuilder
+@Builder
+//@SuperBuilder
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity{

@@ -14,7 +14,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 //@Builder
-@SuperBuilder
+//@SuperBuilder
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 

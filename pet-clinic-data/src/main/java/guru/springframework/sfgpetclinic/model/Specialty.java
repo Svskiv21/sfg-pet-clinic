@@ -11,8 +11,8 @@ import javax.persistence.Table;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-//@Builder
-@SuperBuilder
+@Builder
+//@SuperBuilder
 @Entity
 @Table(name = "specialties")
 public class Specialty extends BaseEntity {

@@ -11,8 +11,8 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-//@Builder
-@SuperBuilder
+@Builder
+//@SuperBuilder
 @Entity
 @Table(name = "vets")
 public class Vet extends Person {
