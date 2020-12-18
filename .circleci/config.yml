@@ -1,8 +1,7 @@
 version: 2.1
 
 orbs:
-  maven: circleci/maven@0.0.12
-  java: 11
+  maven: circleci/maven@1.0.3
 
 workflows:
   maven_test:
