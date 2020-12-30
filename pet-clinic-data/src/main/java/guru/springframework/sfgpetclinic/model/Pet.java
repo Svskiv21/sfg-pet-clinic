@@ -12,7 +12,7 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+//@Builder
 //@SuperBuilder
 @Entity
 @Table(name = "pets")
@@ -35,4 +35,13 @@ public class Pet extends BaseEntity{
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet") //If i delete pet then visits are also deleted, it's mapped by pet on the other side.
     private Set<Visit> visits = new HashSet<>(); //We use new HashSet so the value is not null
 
+    @Builder
+    public Pet(Long id, String name, PetType petType, Owner owner, LocalDate birthDate, Set<Visit> visits) {
+        super(id);
+        this.name = name;
+        this.petType = petType;
+        this.owner = owner;
+        this.birthDate = birthDate;
+        this.visits = visits;
+    }
 }
