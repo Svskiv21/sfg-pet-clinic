@@ -90,14 +90,4 @@ class VisitControllerTest {
                 .andExpect(model().attributeExists("visit"));
     }
 
-    @Test
-    void processNewVisitFormFail() throws Exception {
-        mockMvc.perform(post("/owners/1/pets/1/visits/new")
-                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param("date","2018-11-11")
-                .param("description", YET_ANOTHER_VISIT_DESCRIPTION))
-                .andExpect(status().isOk())
-                .andExpect(view().name("pets/createOrUpdateVisitForm"))
-                .andExpect(model().attributeExists("visit"));
-    }
 }
