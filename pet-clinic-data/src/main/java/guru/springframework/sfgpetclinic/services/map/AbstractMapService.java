@@ -11,7 +11,7 @@ public abstract class AbstractMapService<T, ID> {
 
     Set<T> findAll(){
         return new HashSet<>(map.values());
-    }
+    } // czemu to zwraca HashSet i co to wgl znaczy?
 
     T findById(ID id) { // this will return object from map by id
         return map.get(id);
