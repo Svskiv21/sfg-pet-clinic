@@ -1,7 +1,9 @@
 package guru.springframework.sfgpetclinic.services;
 
-import java.util.Set;
+import org.springframework.stereotype.Service;
 
+import java.util.Set;
+@Service
 public interface CrudService<T, ID> {
     Set<T> findAll();
 
